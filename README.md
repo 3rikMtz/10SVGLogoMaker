@@ -1,27 +1,77 @@
-# SVG Logo Maker
+Sure, here is a README file you can copy-paste directly:
 
-## Description 
+markdown
+Copy code
+# 🎨🖌️ SVG Logo Maker 
 
-Welcome to the SVG Logo Maker repository. This repository provides a Node.js based SVG logo generator that allows user to create their own logos using their own input . It uses inquirer to retrieve data from the user and also test the classes of the Shapes that are allowed using the npm module jest. It creates dinamically a svg logo with the user input and allows colors in color keyword like "red" and allows hexadecimal. 
+This is a Node.js command-line application that allows you to generate a simple SVG logo with your chosen color and shape! Ideal for freelance developers who want a quick logo for their projects without needing a graphic designer. 
 
-## Usage 
+## 👤 User Story 
 
-To generate your custom SVG logo, follow these steps:
+**AS** a freelance web developer,
+**I WANT** to generate a simple logo for my projects,
+**SO THAT** I don't have to pay a graphic designer.
 
-1.- Open a terminal and navigate to the cloned directory.
+## 💡 Features 
 
-2.- Run the following command to start the SVG logo generator:
+1. Prompt for text color 🎨
+2. Prompt for shape selection (circle, triangle, or square) ⭕🔺◼️
+3. Prompt for shape color 🖌️
+4. Generate an SVG file named `logo.svg` 🗂️
+5. Output message confirming the generation of `logo.svg` 📄
 
-                                     node index.js
+## 🚀 Getting Started 
 
-3.- The generator will present a series of prompts to collect information about your logo preferences. Answer each prompt to define the desired logo style, colors, shapes and text.
+### Prerequisites
 
-4.- Once you have provided all the necessary information, the generator will create your custom SVG logo and save it to the output directory within the repository.
+Make sure you have Node.js and npm installed in your system. If not, you can download it from [here](https://nodejs.org/en/download/).
 
-5.- Locate the generated SVG logo file in the output directory and use it in your projects or designs as needed.
+### Installation
 
-https://drive.google.com/file/d/12FuG7JLItOKSJ4118sLW31lD-9Ekkv5l/view?usp=share_link
+1. Clone the repository.
+git clone https://github.com/3rikMtz/10SVGLogoMaker
 
-## Licence
+csharp
+Copy code
+2. Navigate into the cloned repository.
+cd 10SVGLogoMaker
 
-This project is licensed under the MIT License. 
+markdown
+Copy code
+3. Install the dependencies.
+npm install
+
+perl
+Copy code
+
+### Usage
+
+To run the program, use the following command:
+
+```bash
+node index.js
+You will be prompted for your desired color and shape for your logo. After completing the prompts, the SVG file logo.svg will be created in the current directory.
+
+🧪 Running the tests
+To run the tests, use the following command:
+
+bash
+Copy code
+npm test
+🛠️ Built with
+Node.js
+Inquirer
+Jest
+🎥 Walkthrough Video
+https://drive.google.com/file/d/1_dwwEm2rdgQTN8Yf68invCKFKzO6oNi6/view
+
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgements
+SVG tutorial
+Inquirer
+Jest
+javascript
+Copy code
+
